@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/二分查找/二分查找.iml" filepath="$PROJECT_DIR$/二分查找/二分查找.iml" />
       <module fileurl="file://$PROJECT_DIR$/双指针/双指针.iml" filepath="$PROJECT_DIR$/双指针/双指针.iml" />
+      <module fileurl="file://$PROJECT_DIR$/广度优先与深度优先/广度优先与深度优先.iml" filepath="$PROJECT_DIR$/广度优先与深度优先/广度优先与深度优先.iml" />
       <module fileurl="file://$PROJECT_DIR$/滑动窗口/滑动窗口.iml" filepath="$PROJECT_DIR$/滑动窗口/滑动窗口.iml" />
     </modules>
   </component>
