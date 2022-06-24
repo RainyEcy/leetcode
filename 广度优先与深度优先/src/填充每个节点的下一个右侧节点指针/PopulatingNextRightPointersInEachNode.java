@@ -112,7 +112,9 @@ public class PopulatingNextRightPointersInEachNode {
         if (root.left != null) {
             root.left.next = root.right;
             root.right.next = root.next == null ? null : root.next.left;
+            // 深度递归左侧节点
             connecNodeDfs(root.left);
+            // 深度递归右侧节点
             connecNodeDfs(root.right);
         }
 
@@ -129,7 +131,9 @@ public class PopulatingNextRightPointersInEachNode {
             return root;
         }
 
+        // 每层最左元素
         Node leftPoint = root;
+        // 单层逐个遍历元素
         Node levelPoint = leftPoint;
 
         while (leftPoint != null) {
